@@ -74,3 +74,34 @@ body {
   border-radius: 8px;
   cursor: pointer;
 }
+
+.card-image-doi {
+  height: 400px;
+  width: 400px;
+  background-image: url(https://static4.libertatea.ro/wp-content/uploads/2021/07/castelul-peles-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+
+.card-container {
+  background-color: lightgrey;
+  border-radius: 8px;
+}
+
+.card-container-primary {
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  overflow: hidden;
+}
+
+h2 {
+  color: red;
+}
+
+h3 {
+  color: green;
+}
