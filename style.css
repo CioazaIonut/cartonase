@@ -105,3 +105,60 @@ h2 {
 h3 {
   color: green;
 }
+
+.card-container {
+  margin-top: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 300px;
+}
+
+.card-image-telecomunicatii {
+  height: 300px;
+  width: 300px;
+  background-image: url("https://storage0.dms.mpinteractiv.ro/media/1/1481/25326/21245775/2/telecomunicatii-ss.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-content {
+  background-color: white;
+  width: 300px;
+  padding: 16px;
+}
+
+.job-title,
+.email-title-container,
+.number-phone-container,
+.button {
+  margin-top: 12px;
+}
+
+.email-title-container,
+.number-phone-container,
+.button {
+  font-weight: 700;
+}
+
+.email-container,
+.phone-container {
+  display: flex;
+}
+
+.button-telecomunicatii {
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  color: red;
+  background-color: transparent;
+
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
